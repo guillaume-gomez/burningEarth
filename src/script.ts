@@ -8,7 +8,7 @@ const scene = new THREE.Scene();
 
 // Object
 const geometry = new THREE.SphereGeometry(1, 32, 32);
-const material = new THREE.MeshBasicMaterial({ color: 0x00Afff, wireframe: true });
+const material = new THREE.MeshBasicMaterial({ color: 0xFF000f, wireframe: true });
 const mesh = new THREE.Mesh(geometry, material);
 
 scene.add(mesh);
