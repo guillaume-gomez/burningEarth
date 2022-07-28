@@ -1,5 +1,7 @@
 {
-    "repository": "threeJs-Typescript-Boilerplate",
+    "name": "burning-earth",
+    "homepage": "./",
+    "repository": "https://github.com/guillaume-gomez/burningEarth",
     "author": "Guillaume Gomez <guillaume.gomez846@gmail.com>",
     "scripts": {
         "build": "webpack --config ./bundler/webpack.prod.js",
