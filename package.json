@@ -5,7 +5,8 @@
     "author": "Guillaume Gomez <guillaume.gomez846@gmail.com>",
     "scripts": {
         "build": "webpack --config ./bundler/webpack.prod.js",
-        "dev": "webpack serve --config ./bundler/webpack.dev.js"
+        "dev": "webpack serve --config ./bundler/webpack.dev.js",
+        "deploy": "gh-pages -d build"
     },
     "dependencies": {
         "@babel/core": "^7.15.8",
