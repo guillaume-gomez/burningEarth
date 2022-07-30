@@ -47,7 +47,6 @@ gltfLoader.load(
     (gltf) =>
     {
         console.log('success')
-        console.log(gltf)
         let earth = gltf.scene.children[0];
         earth.scale.set(0.5, 0.5, 0.5)
         scene.add(earth)
