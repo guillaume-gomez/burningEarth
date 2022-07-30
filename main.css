@@ -1,0 +1,41 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+html,
+body
+{
+    overflow: hidden;
+}
+
+#texts {
+    position: absolute;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 2;
+    color: white;
+    width: 100%;
+    height: 100%;
+    font-size: 42px;
+}
+
+#question {
+padding-top: 2rem;
+}
+
+#answer {
+padding-bottom: 2rem;
+}
+
+/*# sourceMappingURL=main.css.map*/
