@@ -43,7 +43,7 @@ let earth : THREE.Object3D | null = null;
  */
 const gltfLoader = new GLTFLoader();
 gltfLoader.load(
-    '/models/earth/scene.gltf',
+    './models/earth/scene.gltf',
     (gltf) =>
     {
         console.log('success')
